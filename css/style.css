@@ -13,9 +13,6 @@
      color: inherit;
  }
 
- /* .container{
-    overflow: hidden;
-} */
 
  body {
      background-color: black;
@@ -222,7 +219,7 @@
      gap: 15px;
  }
 
- .left-anush {
+ .left {
      display: flex;
      flex-direction: column;
      gap: 20px;

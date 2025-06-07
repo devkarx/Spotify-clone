@@ -191,11 +191,11 @@ async function main() {
     })
 
     document.querySelector(".hamburger").addEventListener("click", ()=>{
-        document.querySelector(".left-anush").style.left="0"
+        document.querySelector(".left").style.left="0"
     })
     
     document.querySelector(".close").addEventListener("click",()=>{
-        document.querySelector(".left-anush").style.left="-200%"
+        document.querySelector(".left").style.left="-200%"
         console.log("Hello")
     })
 
