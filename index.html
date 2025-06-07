@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left-anush">
+            <div class="logo bg-black">
+                <div class="close invert" style="display: flex;">
+                    <img width="30" src="/images/close.svg">
+                </div>
+                <img width="110px" src="images/logo.svg" alt="Logo" class="invert" />
+            </div>
+
+            <div class="home rounded bold m-1">
+                <ul>
+                    <li>
+                        <img src="images/home.svg" alt="Home" class="invert" /> Home
+                    </li>
+                    <li>
+                        <img src="images/search.svg" alt="Search" class="invert" />Search
+                    </li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded bold m-1 p-1">
+                <div style="display: flex; gap: 10px;">
+                    <img class="invert heading" src="images/playlist.svg" alt="Your playlist" />
+                    Your Library
+                </div>
+                <div class="songList">
+                    <ul>
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+            </div>
+
+        </div>
+        
+
+        <div class="right">
+            <div class="header flex">
+                <div class="hamburger invert">
+                    <img src="/images/hamburger.svg">
+                </div>
+                <div class="nav">
+                    <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#000000" fill="none">
+                        <defs />
+                        <path fill="currentColor"
+                            d="M15.445,6.604 C15.283,6.726 14.802,7.09 14.524,7.306 C13.968,7.74 13.229,8.333 12.492,8.973 C11.751,9.616 11.03,10.292 10.499,10.892 C10.234,11.193 10.032,11.457 9.9,11.675 C9.776,11.88 9.751,12.002 9.751,12.002 C9.751,12.002 9.776,12.119 9.9,12.324 C10.032,12.543 10.234,12.807 10.499,13.108 C11.03,13.708 11.751,14.383 12.492,15.026 C13.229,15.666 13.968,16.259 14.524,16.693 C14.802,16.91 15.283,17.273 15.444,17.395 C15.778,17.641 15.85,18.111 15.604,18.445 C15.358,18.778 14.889,18.849 14.555,18.604 L14.553,18.602 C14.383,18.474 13.884,18.097 13.601,17.876 C13.032,17.432 12.271,16.822 11.508,16.159 C10.749,15.5 9.97,14.774 9.375,14.101 C9.079,13.765 8.812,13.425 8.616,13.099 C8.431,12.793 8.25,12.406 8.25,12 C8.25,11.593 8.431,11.206 8.616,10.901 C8.812,10.575 9.079,10.234 9.375,9.899 C9.97,9.226 10.749,8.5 11.508,7.841 C12.271,7.178 13.032,6.568 13.601,6.124 C13.885,5.902 14.384,5.526 14.553,5.398 L14.555,5.396 C14.888,5.151 15.358,5.222 15.604,5.555 C15.85,5.889 15.778,6.358 15.445,6.604 Z" />
+                    </svg>
+
+                    <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#000000" fill="none">
+                        <defs />
+                        <path fill="currentColor"
+                            d="M8.557,17.396 C8.719,17.274 9.2,16.91 9.478,16.694 C10.034,16.26 10.773,15.666 11.51,15.027 C12.251,14.384 12.972,13.708 13.502,13.108 C13.768,12.807 13.97,12.543 14.102,12.325 C14.226,12.119 14.251,11.998 14.251,11.998 C14.251,11.998 14.226,11.881 14.102,11.675 C13.97,11.457 13.768,11.193 13.502,10.892 C12.972,10.292 12.251,9.617 11.51,8.973 C10.773,8.334 10.034,7.741 9.478,7.306 C9.2,7.09 8.719,6.726 8.558,6.604 C8.224,6.359 8.152,5.889 8.398,5.555 C8.644,5.222 9.113,5.151 9.447,5.396 L9.449,5.398 C9.618,5.526 10.117,5.903 10.401,6.124 C10.97,6.568 11.731,7.178 12.494,7.841 C13.253,8.5 14.032,9.226 14.627,9.899 C14.923,10.235 15.19,10.575 15.386,10.901 C15.571,11.207 15.752,11.594 15.752,12 C15.752,12.407 15.571,12.793 15.386,13.099 C15.19,13.425 14.923,13.765 14.627,14.101 C14.032,14.774 13.253,15.5 12.494,16.159 C11.731,16.822 10.97,17.432 10.401,17.876 C10.117,18.097 9.618,18.474 9.449,18.602 L9.447,18.604 C9.114,18.849 8.644,18.778 8.398,18.445 C8.152,18.111 8.224,17.642 8.557,17.396 Z" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <a class="signup">Sign up</a>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlists</h1>
+            </div>
+            <div class="cardContainer">
+                
+
+
+                
+
+
+    </div>
+
+
+    <div class="playbar">
+        <div class="seekbar">
+            <div class="circle"></div>
+        </div>
+        <div class="trackinfo">
+
+        </div>
+        <div class="playbuttons">
+            <img id="prev" src="images/prev.svg">
+            <img id="play" src="images/play.svg" class="play1">
+            <img id="next" src="images/next.svg" class="next">
+        </div>
+        <div class="timevol">
+
+                       
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img class="invert" width="25" src="images/volume.svg" >
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+    </div>
+
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

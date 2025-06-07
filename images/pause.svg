@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+  <!-- Green circular background -->
+  <circle cx="12" cy="12" r="11.5" fill="#1DB954" />
+
+  <!-- Black pause bars (longer) -->
+  <rect x="8.5" y="7.5" width="1.5" height="9" fill="#000000" rx="0.75" />
+  <rect x="14" y="7.5" width="1.5" height="9" fill="#000000" rx="0.75" />
+</svg>
